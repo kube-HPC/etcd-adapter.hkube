@@ -17,7 +17,7 @@ describe('etcd', () => {
             port: process.env.ETCD_CLIENT_SERVICE_PORT || 4001
         };
 
-        await etcd.init(config, null, null, true);
+        await etcd.init(config.etcd, null, null, true);
     });
     describe('get/set', () => {
         it('should set a key and then get the same key', async () => {
