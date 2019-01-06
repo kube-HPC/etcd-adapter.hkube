@@ -1,6 +1,6 @@
 {
   "name": "@hkube/etcd-adapter",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "etcd-adapter",
   "main": "index.js",
   "scripts": {
