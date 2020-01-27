@@ -1,11 +1,11 @@
 
 const { expect } = require('chai');
-const etcd = require('../index');
+const EtcdAdapter = require('../index');
 const uuidv4 = require('uuid/v4');
 const moment = require('moment');
 const path = require('path');
 const DateFormat = 'YYYY-MM-DD';
-
+const etcd = new EtcdAdapter();
 describe('etcd', () => {
     beforeEach(async () => {
         const config = {};
