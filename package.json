@@ -15,7 +15,7 @@
   "author": "Nassi Harel",
   "license": "ISC",
   "dependencies": {
-    "@hkube/etcd-client": "^1.0.6",
+    "@hkube/etcd-client": "^1.0.7",
     "djsv": "^3.0.5",
     "uuid": "^3.3.2"
   },
